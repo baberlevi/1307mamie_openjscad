@@ -17,17 +17,17 @@ function main () {
 
 function door() {
     var door = cube({size: [64.5, 44.5, 44.5]})
-    door = translate([0,3,5], door)
+    door = translate([0,2,5], door)
     return door
 }
 
 function pocket() {
-    var pocket = cube({size: [64.5, 50.5, 20]})
+    var pocket = cube({size: [64.5, 48.5, 20]})
     return pocket
 }
 
 function stabilizer(){
-    var stabilizer = cube({size:[20, 80.5, 5]})
+    var stabilizer = cube({size:[20, 78.5, 5]})
     stabilizer = translate([0,-15,0], stabilizer)
     return stabilizer
 }
