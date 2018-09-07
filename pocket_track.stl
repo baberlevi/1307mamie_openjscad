@@ -1,44 +1,44 @@
 solid csg.js
 facet normal 0 0 -1
 outer loop
-vertex 20 65.5 0
-vertex 20 50.5 0
-vertex 0 50.5 0
+vertex 20 63.5 0
+vertex 20 48.5 0
+vertex 0 48.5 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
-vertex 20 65.5 0
-vertex 0 50.5 0
-vertex 0 65.5 0
+vertex 20 63.5 0
+vertex 0 48.5 0
+vertex 0 63.5 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
-vertex 20 50.5 0
-vertex 64.5 50.5 0
+vertex 20 48.5 0
+vertex 64.5 48.5 0
 vertex 64.5 0 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
-vertex 20 50.5 0
+vertex 20 48.5 0
 vertex 64.5 0 0
 vertex 20 0 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
-vertex 20 50.5 0
+vertex 20 48.5 0
 vertex 20 0 0
 vertex 0 0 0
 endloop
 endfacet
 facet normal 0 0 -1
 outer loop
-vertex 20 50.5 0
+vertex 20 48.5 0
 vertex 0 0 0
-vertex 0 50.5 0
+vertex 0 48.5 0
 endloop
 endfacet
 facet normal 0 0 -1
@@ -57,113 +57,113 @@ endloop
 endfacet
 facet normal 0 0 1
 outer loop
-vertex 64.5 3 5
-vertex 64.5 47.5 5
-vertex 0 47.5 5
+vertex 64.5 2 5
+vertex 64.5 46.5 5
+vertex 0 46.5 5
 endloop
 endfacet
 facet normal 0 0 1
 outer loop
-vertex 64.5 3 5
-vertex 0 47.5 5
-vertex 0 3 5
+vertex 64.5 2 5
+vertex 0 46.5 5
+vertex 0 2 5
 endloop
 endfacet
 facet normal 0 1 0
 outer loop
-vertex 0 3 20.000000000000004
-vertex 64.5 3 20
-vertex 64.5 3 5
+vertex 0 2 20.000000000000004
+vertex 64.5 2 20
+vertex 64.5 2 5
 endloop
 endfacet
 facet normal 0 1 0
 outer loop
-vertex 0 3 20.000000000000004
-vertex 64.5 3 5
-vertex 0 3 5
+vertex 0 2 20.000000000000004
+vertex 64.5 2 5
+vertex 0 2 5
 endloop
 endfacet
 facet normal 0 -1 0
 outer loop
-vertex 64.5 47.5 5
-vertex 64.5 47.5 20.000000000000004
-vertex 0 47.5 20
+vertex 64.5 46.5 5
+vertex 64.5 46.5 20.000000000000004
+vertex 0 46.5 20
 endloop
 endfacet
 facet normal 0 -1 0
 outer loop
-vertex 64.5 47.5 5
-vertex 0 47.5 20
-vertex 0 47.5 5
+vertex 64.5 46.5 5
+vertex 0 46.5 20
+vertex 0 46.5 5
 endloop
 endfacet
 facet normal -1 0 0
 outer loop
-vertex 0 3 20.000000000000004
-vertex 0 3 5
+vertex 0 2 20.000000000000004
+vertex 0 2 5
 vertex 0 0 5
 endloop
 endfacet
 facet normal -1 0 0
 outer loop
-vertex 0 3 20.000000000000004
+vertex 0 2 20.000000000000004
 vertex 0 0 5
 vertex 0 0 20.000000000000004
 endloop
 endfacet
 facet normal -1 0 0
 outer loop
-vertex 0 50.5 20.000000000000004
-vertex 0 50.5 5
-vertex 0 47.5 5
+vertex 0 48.5 20.000000000000004
+vertex 0 48.5 5
+vertex 0 46.5 5
 endloop
 endfacet
 facet normal -1 0 0
 outer loop
-vertex 0 50.5 20.000000000000004
-vertex 0 47.5 5
-vertex 0 47.5 20
-endloop
-endfacet
-facet normal -1 0 0
-outer loop
-vertex 0 0 5
-vertex 0 3 5
-vertex 0 47.5 5
+vertex 0 48.5 20.000000000000004
+vertex 0 46.5 5
+vertex 0 46.5 20
 endloop
 endfacet
 facet normal -1 0 0
 outer loop
 vertex 0 0 5
-vertex 0 47.5 5
-vertex 0 50.5 5
+vertex 0 2 5
+vertex 0 46.5 5
 endloop
 endfacet
 facet normal -1 0 0
 outer loop
 vertex 0 0 5
-vertex 0 50.5 5
-vertex 0 65.5 5
+vertex 0 46.5 5
+vertex 0 48.5 5
 endloop
 endfacet
 facet normal -1 0 0
 outer loop
 vertex 0 0 5
-vertex 0 65.5 5
-vertex 0 65.5 0
+vertex 0 48.5 5
+vertex 0 63.5 5
 endloop
 endfacet
 facet normal -1 0 0
 outer loop
 vertex 0 0 5
-vertex 0 65.5 0
-vertex 0 50.5 0
+vertex 0 63.5 5
+vertex 0 63.5 0
 endloop
 endfacet
 facet normal -1 0 0
 outer loop
 vertex 0 0 5
-vertex 0 50.5 0
+vertex 0 63.5 0
+vertex 0 48.5 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 0 5
+vertex 0 48.5 0
 vertex 0 0 0
 endloop
 endfacet
@@ -183,86 +183,86 @@ endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 64.5 50.5 0
-vertex 64.5 50.5 5
-vertex 64.5 47.5 5
+vertex 64.5 48.5 0
+vertex 64.5 48.5 5
+vertex 64.5 46.5 5
 endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 64.5 50.5 0
-vertex 64.5 47.5 5
-vertex 64.5 3 5
+vertex 64.5 48.5 0
+vertex 64.5 46.5 5
+vertex 64.5 2 5
 endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 64.5 50.5 0
-vertex 64.5 3 5
+vertex 64.5 48.5 0
+vertex 64.5 2 5
 vertex 64.5 0 5
 endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 64.5 50.5 0
+vertex 64.5 48.5 0
 vertex 64.5 0 5
 vertex 64.5 0 0
 endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 64.5 3 5
-vertex 64.5 3 20
+vertex 64.5 2 5
+vertex 64.5 2 20
 vertex 64.5 0 20
 endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 64.5 3 5
+vertex 64.5 2 5
 vertex 64.5 0 20
 vertex 64.5 0 5
 endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 64.5 50.5 5
-vertex 64.5 50.5 20
-vertex 64.5 47.5 20.000000000000004
+vertex 64.5 48.5 5
+vertex 64.5 48.5 20
+vertex 64.5 46.5 20.000000000000004
 endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 64.5 50.5 5
-vertex 64.5 47.5 20.000000000000004
-vertex 64.5 47.5 5
+vertex 64.5 48.5 5
+vertex 64.5 46.5 20.000000000000004
+vertex 64.5 46.5 5
 endloop
 endfacet
 facet normal 0 0 1
 outer loop
 vertex 64.5 0 20
-vertex 64.5 3 20
-vertex 0 3 20.000000000000004
+vertex 64.5 2 20
+vertex 0 2 20.000000000000004
 endloop
 endfacet
 facet normal 0 0 1
 outer loop
 vertex 64.5 0 20
-vertex 0 3 20.000000000000004
+vertex 0 2 20.000000000000004
 vertex 0 0 20.000000000000004
 endloop
 endfacet
 facet normal 0 0 1
 outer loop
-vertex 64.5 47.5 20.000000000000004
-vertex 64.5 50.5 20
-vertex 0 50.5 20.000000000000004
+vertex 64.5 46.5 20.000000000000004
+vertex 64.5 48.5 20
+vertex 0 48.5 20.000000000000004
 endloop
 endfacet
 facet normal 0 0 1
 outer loop
-vertex 64.5 47.5 20.000000000000004
-vertex 0 50.5 20.000000000000004
-vertex 0 47.5 20
+vertex 64.5 46.5 20.000000000000004
+vertex 0 48.5 20.000000000000004
+vertex 0 46.5 20
 endloop
 endfacet
 facet normal 0 -1 0
@@ -302,37 +302,37 @@ endloop
 endfacet
 facet normal 0 1 0
 outer loop
-vertex 64.5 50.5 20
-vertex 64.5 50.5 5
-vertex 20 50.5 5
+vertex 64.5 48.5 20
+vertex 64.5 48.5 5
+vertex 20 48.5 5
 endloop
 endfacet
 facet normal 0 1 0
 outer loop
-vertex 64.5 50.5 20
-vertex 20 50.5 5
-vertex 0 50.5 5
+vertex 64.5 48.5 20
+vertex 20 48.5 5
+vertex 0 48.5 5
 endloop
 endfacet
 facet normal 0 1 0
 outer loop
-vertex 64.5 50.5 20
-vertex 0 50.5 5
-vertex 0 50.5 20.000000000000004
+vertex 64.5 48.5 20
+vertex 0 48.5 5
+vertex 0 48.5 20.000000000000004
 endloop
 endfacet
 facet normal 0 1 0
 outer loop
-vertex 64.5 50.5 5
-vertex 64.5 50.5 0
-vertex 20 50.5 0
+vertex 64.5 48.5 5
+vertex 64.5 48.5 0
+vertex 20 48.5 0
 endloop
 endfacet
 facet normal 0 1 0
 outer loop
-vertex 64.5 50.5 5
-vertex 20 50.5 0
-vertex 20 50.5 5
+vertex 64.5 48.5 5
+vertex 20 48.5 0
+vertex 20 48.5 5
 endloop
 endfacet
 facet normal 0 -1 0
@@ -351,16 +351,16 @@ endloop
 endfacet
 facet normal 0 1 0
 outer loop
-vertex 0 65.5 0
-vertex 0 65.5 5
-vertex 20 65.5 5
+vertex 0 63.5 0
+vertex 0 63.5 5
+vertex 20 63.5 5
 endloop
 endfacet
 facet normal 0 1 0
 outer loop
-vertex 0 65.5 0
-vertex 20 65.5 5
-vertex 20 65.5 0
+vertex 0 63.5 0
+vertex 20 63.5 5
+vertex 20 63.5 0
 endloop
 endfacet
 facet normal 1 0 0
@@ -379,16 +379,16 @@ endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 20 65.5 0
-vertex 20 65.5 5
-vertex 20 50.5 5
+vertex 20 63.5 0
+vertex 20 63.5 5
+vertex 20 48.5 5
 endloop
 endfacet
 facet normal 1 0 0
 outer loop
-vertex 20 65.5 0
-vertex 20 50.5 5
-vertex 20 50.5 0
+vertex 20 63.5 0
+vertex 20 48.5 5
+vertex 20 48.5 0
 endloop
 endfacet
 facet normal 0 0 1
@@ -407,16 +407,16 @@ endloop
 endfacet
 facet normal 0 0 1
 outer loop
-vertex 20 50.5 5
-vertex 20 65.5 5
-vertex 0 65.5 5
+vertex 20 48.5 5
+vertex 20 63.5 5
+vertex 0 63.5 5
 endloop
 endfacet
 facet normal 0 0 1
 outer loop
-vertex 20 50.5 5
-vertex 0 65.5 5
-vertex 0 50.5 5
+vertex 20 48.5 5
+vertex 0 63.5 5
+vertex 0 48.5 5
 endloop
 endfacet
 endsolid csg.js
