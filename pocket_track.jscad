@@ -29,3 +29,5 @@ function pocket() {
 function stabilizer(){
     var stabilizer = cube({size:[20, 80.5, 5]})
     stabilizer = translate([0,-15,0], stabilizer)
+    return stabilizer
+}
