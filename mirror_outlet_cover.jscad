@@ -10,7 +10,8 @@ function main () {
       cover(),
       union(
         outlet([0,32,0]),
-        outlet([0,-8,0])
+        outlet([0,-8,0]),
+        screwhole()
       )
   )
 }
@@ -34,4 +35,11 @@ function cover(){
     )
     cover = translate([-46.5, -80, 0], cover)
     return cover
+}
+
+
+function screwhole(){
+    var screwhole = cylinder({r: 2.125, h: 10})
+    screwhole = translate([0, 12, 0], screwhole)
+    return screwhole
 }
