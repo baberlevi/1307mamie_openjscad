@@ -1,7 +1,7 @@
 // title      : Master bath outlet cover
 // author     : Levi Baber
 // license    : MIT License
-// revision   : 20180831-1
+// revision   : 20180918-1
 // tags       : outlet
 // file       : mirror_outlet_cover.jscad
 
@@ -17,10 +17,10 @@ function main () {
 
 function outlet(location) {
     var outlet = difference(
-        cylinder({r: 16.75, h: 10}),
+        cylinder({r: 17.25, h: 10}),
         difference(
-            cube({size: [20, 38.25, 10], center: [true, true, false]}),
-            cube({size: [20, 28.25, 10], center: [true, true, false]})
+            cube({size: [20, 38.75, 10], center: [true, true, false]}),
+            cube({size: [20, 28.75, 10], center: [true, true, false]})
         )
     )
     outlet = translate(location, outlet)
