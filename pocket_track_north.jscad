@@ -10,7 +10,7 @@ function main () {
     difference(
       pocket(),
       door()
-    ), 
+    ),
     stabilizer()
   )
 }
@@ -27,7 +27,23 @@ function pocket() {
 }
 
 function stabilizer(){
-    var stabilizer = cube({size:[20, 78.5, 5]})
+    var stabilizer = cube({size:[20, 78.5, 4]})
     stabilizer = translate([0,-15,0], stabilizer)
+
+    stabilizer = union(
+        stabilizer,
+        temp_corner([0,63.5,0]),
+        temp_corner([64.5, 48.5, 0]),
+        temp_corner([64.5, 0, 0]),
+        temp_corner([0, -15, 0])
+        )
+
+
     return stabilizer
+}
+
+function temp_corner(location){
+    var corner = cylinder({r:5, h: 0.1})
+    corner = translate(location, corner)
+    return corner
 }
